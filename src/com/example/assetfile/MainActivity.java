@@ -21,8 +21,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        t1 = (TextView) findViewById(R.id.textView1);
-        i1 = (ImageView) findViewById(R.id.imageView1);
+       // t1 = (TextView) findViewById(R.id.textView1);
+     //   i1 = (ImageView) findViewById(R.id.imageView1);
         
         try {
 			loadAsset();
