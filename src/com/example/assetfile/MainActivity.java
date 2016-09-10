@@ -24,6 +24,8 @@ public class MainActivity extends ActionBarActivity {
        // t1 = (TextView) findViewById(R.id.textView1);
      //   i1 = (ImageView) findViewById(R.id.imageView1);
         
+        i1 = (ImageView) findViewById(R.id.imageView1);
+        
         try {
 			loadAsset();
 		} catch (IOException e) {
